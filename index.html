@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emirhan Çifçi | Mobil Uygulama Portföyü</title>
+    <meta name="description" content="Emirhan Çifçi tarafından geliştirilen mobil uygulamalar. Su Takibi, Cebim, YKS Analiz ve daha fazlası.">
+    <style>
+        :root {
+            --primary-color: #007AFF; /* Apple Blue */
+            --bg-color: #F5F5F7;
+            --text-color: #1D1D1F;
+            --card-bg: #FFFFFF;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 1px 10px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #86868b;
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        .contact-btn:hover {
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .app-card {
+            background: var(--card-bg);
+            border-radius: 18px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .app-icon {
+            font-size: 40px;
+            margin-right: 15px;
+            background: #f0f0f0;
+            width: 64px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 14px;
+        }
+
+        .app-info h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        .category {
+            font-size: 0.85rem;
+            color: #86868b;
+            margin-top: 4px;
+            display: block;
+        }
+
+        .app-desc {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .store-button {
+            display: block;
+            text-align: center;
+            background-color: #f2f2f7;
+            color: var(--primary-color);
+            padding: 12px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .store-button:hover {
+            background-color: #e5e5ea;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #86868b;
+            font-size: 0.9rem;
+            margin-top: 40px;
+            border-top: 1px solid #e5e5ea;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Emirhan Çifçi</h1>
+        <p class="subtitle">Mobil Uygulama Geliştirici & Girişimci</p>
+        <a href="mailto:cifciemirhan@icloud.com" class="contact-btn">Bana Ulaşın</a>
+    </header>
+
+    <div class="container">
+        <h2>Uygulamalarım</h2>
+        
+        <div class="apps-grid">
+            
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon">💧</div>
+                    <div class="app-info">
+                        <h3>Su Takibi</h3>
+                        <span class="category">Sağlık & Fitness</span>
+                    </div>
+                </div>
+                <p class="app-desc">Günlük su tüketiminizi takip edin, hatırlatıcılarla sağlıklı kalmayı alışkanlık haline getirin.</p>
+                <a href="https://apps.apple.com/tr/app/su-takibi-g%C3%BCnl%C3%BCk-hat%C4%B1rlat%C4%B1c%C4%B1/id6751983017?l=tr" target="_blank" class="store-button">App Store'da İncele</a>
+            </div>
+
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon">💰</div>
+                    <div class="app-info">
+                        <h3>Cebim - Portföy</h3>
+                        <span class="category">Finans</span>
+                    </div>
+                </div>
+                <p class="app-desc">Tüm yatırımlarınızı, gelir ve giderlerinizi tek bir yerden kolayca yönetin ve analiz edin.</p>
+                <a href="https://apps.apple.com/tr/app/cebim-portf%C3%B6y-takibi/id6754169485?l=tr" target="_blank" class="store-button">App Store'da İncele</a>
+            </div>
+
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon">📚</div>
+                    <div class="app-info">
+                        <h3>YKS Analiz Pro</h3>
+                        <span class="category">Eğitim</span>
+                    </div>
+                </div>
+                <p class="app-desc">TYT ve AYT netlerinizi kaydedin, gelişim grafiklerinizi inceleyin ve hedefinize odaklanın.</p>
+                <a href="https://apps.apple.com/tr/app/yks-analiz-pro-tyt-ayt/id6754877285?l=tr" target="_blank" class="store-button">App Store'da İncele</a>
+            </div>
+
+             <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon">✈️</div>
+                    <div class="app-info">
+                        <h3>Paper Plane</h3>
+                        <span class="category">Sosyal</span>
+                    </div>
+                </div>
+                <p class="app-desc">Dijital kağıt uçaklar fırlatın ve dünyanın dört bir yanından yeni mektup arkadaşları edinin.</p>
+                <a href="https://apps.apple.com/tr/app/paper-plane-mektup-arkada%C5%9F%C4%B1/id6753892750?l=tr" target="_blank" class="store-button">App Store'da İncele</a>
+            </div>
+
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon">👨‍🍳</div>
+                    <div class="app-info">
+                        <h3>Minik Şefler</h3>
+                        <span class="category">Yiyecek & İçecek</span>
+                    </div>
+                </div>
+                <p class="app-desc">Çocuklar için özel hazırlanmış eğlenceli ve yapımı kolay yemek tarifleri.</p>
+                <a href="https://apps.apple.com/tr/app/minik-%C5%9Fefler/id6756208268?l=tr" target="_blank" class="store-button">App Store'da İncele</a>
+            </div>
+
+            <div class="app-card">
+                <div class="app-header">
+                    <div class="app-icon">⛽</div>
+                    <div class="app-info">
+                        <h3>Yakıt Takibim</h3>
+                        <span class="category">Araçlar</span>
+                    </div>
+                </div>
+                <p class="app-desc">Aracınızın yakıt tüketimini hesaplayın, masraflarınızı kontrol altına alın.</p>
+                <a href="https://apps.apple.com/tr/app/yak%C4%B1t-takibim/id6754527876?l=tr" target="_blank" class="store-button">App Store'da İncele</a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Emirhan Çifçi. Tüm Hakları Saklıdır.</p>
+        <p style="font-size: 0.8rem; margin-top: 10px;">
+            <a href="app-ads.txt" style="color: #86868b; text-decoration: none;">AdMob app-ads.txt</a>
+        </p>
+    </footer>
+
+</body>
+</html>
